@@ -1,0 +1,75 @@
+/*style2.css*/
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: bisque;
+}
+
+.header{
+    height: 350px;
+    padding: 50px;
+    font-size: 2em;
+    background-color: rgb(20, 136, 190);
+    background-image: url("../img/lanas.avif");
+    background-size: cover;
+    background-position: center;
+    display:flexbox;
+    margin: 0px;
+   
+}
+
+.header h1{
+    margin: 0px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.header h2{
+    margin: 0px;
+    font-weight: 100;
+    color: rgb(245, 238, 246);
+}
+
+.products{
+    width: 100%;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    /*background-color: yellow;*/
+}
+
+.description{
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    /*border: black 1px solid;*/
+}
+
+.description img{
+    width: 300px;
+    height: 400px;
+    padding-bottom: 2px;
+    padding-top: 30px;
+}
+
+.description h2{
+    margin: 0px;
+    font-weight: 150;
+    color: black;
+    background-color: rgba(180, 240, 139, 0.611);
+}
+
+.description p{
+    color: black;
+}
+
+.footer{
+    height: 3em;
+    line-height: 3em;
+    background-color: rgba(128, 171, 18, 0.997);
+    color: rgb(226, 236, 223);
+    text-align: center;
+    font-weight: 8000;
+    font-size: 20px;
+}
+
+
