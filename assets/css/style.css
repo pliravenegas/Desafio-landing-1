@@ -4,7 +4,7 @@ body{
     background-color: bisque;
 }
 
-.header{
+.hero{
     height: 350px;
     padding: 50px;
     font-size: 2em;
@@ -17,13 +17,13 @@ body{
    
 }
 
-.header h1{
+.hero h1{
     margin: 0px;
     font-weight: 400;
     color: rgb(255, 255, 255);
 }
 
-.header h2{
+.hero h2{
     margin: 0px;
     font-weight: 100;
     color: rgb(245, 238, 246);
